@@ -1,0 +1,9 @@
+plugins {
+    id 'application'
+    id 'eclipse'
+}
+
+application.mainClass = 'ewewukek.jmine.Main'
+jar.manifest.attributes['Main-Class'] = application.mainClass
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
