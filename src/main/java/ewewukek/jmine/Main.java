@@ -328,7 +328,6 @@ public class Main extends JFrame {
         getContentPane().add(new Panel());
         pack();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setExtendedState(MAXIMIZED_BOTH);
         setResizable(false);
         setLocationRelativeTo(null);
         setVisible(true);
